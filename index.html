@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>My Loan</title>
+    <meta name="author" content="My Loan">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- ====== Fonts start ====== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <!-- ====== Fonts end ====== -->
+
+    <!-- ====== main style start ====== -->
+    <link rel="shortcut icon" href="images/main-logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ====== main style end ====== -->
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+    <!-- ====== Navbar Start ====== -->
+    <section id="navbar-main" class="fixed-top banner-sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand logo-main-top" href="index.php">
+                    <img src="images/main-logo.png" alt="My Loan Logo" class="nav-logo img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-ico">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav sidebarMenuInner ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Track-icon.png" alt="pic">
+                                <p>Track Application</p> <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Trending-icon.png" alt="pic">
+                                <p>Trending Offers</p>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Profile
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <h5>Profile</h5>
+                                <form action="">
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                    <input type="password" class="form-control" placeholder="Password">
+                                    <button type="submit" class="btn">Log In</button>
+                                </form>
+                                <p><a href="#">Forgot password?</a></p>
+                                <a href="#">New Here?</a>
+                                <a href="#"><b>Sign Up</b></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <p>Home</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+<!-- ====== Banner Start ====== -->
+<section id="banner">
+    <img src="images/bg-dot.png" alt="Dot-pic" class="img-fluid main-dot-img banner-obj1">
+    <img src="images/bg-dot.png" alt="Dot-pic" class="img-fluid main-dot-img banner-obj2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner-text">
+                    <h1>Get your <br>Personal Bank Loan From $12000</h1>
+                    <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</p>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="banner-img">
+                    <img src="images/banner-obj.png" alt="banner-image" class="js-tilt">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== Banner End ====== -->
+
+<!-- ====== Offer Start ====== -->
+<section id="offer" class="section-gap-bottom">
+    <img src="images/bg-dot.png" alt="Dot-pic" class="img-fluid main-dot-img offer-obj">
+    <div class="container">
+        <div class="row justify-content-around justify-content-center">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a href="loan-page.php">
+                    <div class="offer-box">
+                        <img src="images/loan.png" alt="pic" class="img-fluid">
+                        <p>Loan</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a href="deposit-page.php">
+                    <div class="offer-box">
+                        <img src="images/deposit.png" alt="pic" class="img-fluid">
+                        <p>Deposit</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a href="creditcard-page.php">
+                    <div class="offer-box mb-0">
+                        <img src="images/credit-card.png" alt="pic" class="img-fluid">
+                        <p>Credit Card</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== Offer End ====== -->
+
+<!-- ====== Best-deal Start ====== -->
+<section id="best-deal" class="section-gap-bottom">
+    <img src="images/bg-dot.png" alt="Dot-pic" class="img-fluid main-dot-img best-deal-obj">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <div class="all-header best-deal-header">
+                    <h3>Get your best deal</h3>
+                    <img src="images/underline.png" alt="pic" class="img-fluid">
+                    <p>Presenting Banking Plan & Services That are Right For You</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-sm-6">
+                <div class="best-deal-main">
+                    <div class="best-deal-main-img">
+                        <img src="images/service-pic1.png" alt="pic" class="img-fluid">
+                    </div>
+                    <div class="best-deal-main-text">
+                        <h4>Car Loan @ 7.99</h4>
+                        <p>Lowest Interest Rate Loan Facility Upto 50 Lacs. Loan Duration Max 7years.</p>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="best-deal-main">
+                    <div class="best-deal-main-img">
+                        <img src="images/service-pic2.png" alt="pic" class="img-fluid">
+                    </div>
+                    <div class="best-deal-main-text">
+                        <h4>Saadiq Credit Card</h4>
+                        <p>Interest free Wide acceptance. Get some awesome facilities like Conventional Card</p>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="best-deal-main">
+                    <div class="best-deal-main-img">
+                        <img src="images/service-pic3.png" alt="pic" class="img-fluid">
+                    </div>
+                    <div class="best-deal-main-text">
+                        <h4>Home Loan @8%</h4>
+                        <p>Lowest Interest Rate, Loan Facility Upto 2.2 Crore only for apartment buy</p>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="best-deal-main">
+                    <div class="best-deal-main-img">
+                        <img src="images/service-pic4.png" alt="pic" class="img-fluid">
+                    </div>
+                    <div class="best-deal-main-text">
+                        <h4>Loan Amount Upto 80%</h4>
+                        <p>Easy and Hassle Free, Loan Facility Upto 2 Crore. Get maximum loan on total cost</p>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== Best-deal End ====== -->
+
+<!-- ====== Financial Start ====== -->
+<section id="financial" class="section-gap-bottom">
+    <img src="images/bg-dot.png" alt="Dot-pic" class="img-fluid main-dot-img financial-obj1">
+    <img src="images/bg-dot.png" alt="Dot-pic" class="img-fluid main-dot-img financial-obj2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="financial-img">
+                    <img src="images/financial-img.png" alt="pic" class="js-tilt">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="financial-main">
+                    <div class="all-header financial-header">
+                        <h3>Discorver Your Financial Options</h3>
+                        <img src="images/underline.png" alt="pic" class="img-fluid">
+                    </div>
+                    <div class="financial-box">
+                        <div class="financial-subBox">
+                            <div class="financial-icn">
+                                <img src="images/experience.png" alt="pic" class="img-fluid">
+                            </div>
+                            <div class="financial-text">
+                                <h5>Experience</h5>
+                                <p>We have experience to serve more than 40k customer.</p>
+                            </div>
+                        </div>
+                        <div class="financial-subBox">
+                            <div class="financial-icn">
+                                <img src="images/trust.png" alt="pic" class="img-fluid">
+                            </div>
+                            <div class="financial-text">
+                                <h5>Reliability</h5>
+                                <p>We strictly follow our partner banks guideline.</p>
+                            </div>
+                        </div>
+                        <div class="financial-subBox">
+                            <div class="financial-icn">
+                                <img src="images/fast-delivery.png" alt="pic" class="img-fluid">
+                            </div>
+                            <div class="financial-text">
+                                <h5>Experience</h5>
+                                <p>Get loan or credit card in a faster way.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== Financial End ====== -->
+
+<!-- ====== Count Start ====== -->
+<section id="count" class="section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="count-text">
+                    <h5>350 M+</h5>
+                    <p>CORE LOAN DISBURSED</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="count-text">
+                    <h5>2.5 K+</h5>
+                    <p>CREDIT CARDS DISBURSED</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="count-text mb-0">
+                    <h5>55 K+</h5>
+                    <p>HAPPY CUSTOMERS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== Count End ====== -->
+
+<!-- ====== Review Start ====== -->
+<section id="review" class="section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="review-text">
+                    <h3>The best <strong>Review</strong> from our great <span>Clients*</span></h3>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="review-box">
+                            <div class="review-box-text">
+                                <p>MyLoan saved me when I was in dire need of home loan. I faced no coplication while applying for loan for the first time. Thankful to Myloan.</p>
+                                <h6>Ziaul Hasan</h6>
+                                <span>Manager IT, Beximco</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="review-box">
+                            <div class="review-box-text">
+                                <p>MyLoan saved me when I was in dire need of home loan. I faced no coplication while applying for loan for the first time. Thankful to Myloan.</p>
+                                <h6>Ziaul Hasan</h6>
+                                <span>Manager IT, Beximco</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== Review End ====== -->
+
+<!-- ====== Partner Start ====== -->
+<section id="partner" class="section-gap">
+    <img src="images/bg-dot.png" alt="Dot-pic" class="img-fluid main-dot-img partner-obj1">
+    <img src="images/bg-dot.png" alt="Dot-pic" class="img-fluid main-dot-img partner-obj2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-xl-8 m-auto">
+                <div class="all-header partner-header">
+                    <h3>Our Partners</h3>
+                    <img src="images/underline.png" alt="pic" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="partner-logo-box">
+                    <a href="#" target="_blank">
+                        <img src="images/citybank-logo.png" alt="pic" class="img-fluid wow bounceIn" data-wow-delay=".2s" data-wow-offset="30">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="partner-logo-box">
+                    <a href="#" target="_blank">
+                        <img src="images/stabank-logo.png" alt="pic" class="img-fluid wow bounceIn" data-wow-delay=".4s" data-wow-offset="30">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="partner-logo-box">
+                    <a href="#" target="_blank">
+                        <img src="images/ucbbank-logo.png" alt="pic" class="img-fluid wow bounceIn" data-wow-delay=".6s" data-wow-offset="30">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="partner-logo-box">
+                    <a href="#" target="_blank">
+                        <img src="images/bracbank-logo.png" alt="pic" class="img-fluid wow bounceIn" data-wow-delay=".8s" data-wow-offset="30">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== Partner End ====== -->
+
+<!-- ====== Read-more Start ====== -->
+<section id="readmore" class="section-gap">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6">
+                <div class="readmore-main">
+                    <div class="readmore-main-img">
+                        <img src="images/img3.png" alt="pic" class="img-fluid">
+                    </div>
+                    <div class="readmore-main-text">
+                        <h4>Fintech, Bank & Economic Development in Bangladesh</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="#">Read more <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="readmore-main">
+                    <div class="readmore-main-img">
+                        <img src="images/img1.png" alt="pic" class="img-fluid">
+                    </div>
+                    <div class="readmore-main-text">
+                        <h4>Financial Inclusion & Bangladesh Development</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="#">Read more <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="readmore-main mb-0">
+                    <div class="readmore-main-img">
+                        <img src="images/img2.png" alt="pic" class="img-fluid">
+                    </div>
+                    <div class="readmore-main-text">
+                        <h4>Why Bangladesh should adopt digital financial services</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="#">Read more <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ====== Read-more End ====== -->
+
+    <!-- ====== Footer-bottom Start ====== -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 m-auto">
+                    <div class="footer-box">
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <a href="#">Spring Leaf. Flat BG, Plot: 27 Road 126, Gulshan - 1, Dhaka 1205</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-square-alt"></i>
+                                <a href="callto:+088012345678910">+088012345678910</a>
+                            </li>
+                            <li>
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:company@gmail.com">company@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="footer-box">
+                        <p>Company</p>
+                        <ul>
+                            <li>
+                                <a href="#">About MyLoan</a>
+                            </li>
+                            <li>
+                                <a href="#">Investors</a>
+                            </li>
+                            <li>
+                                <a href="#">Partners</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Complaints Guide</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-box mb-0">
+                        <p>Legal</p>
+                        <ul>
+                            <li>
+                                <a href="#">Disclaimer</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms of use</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-social-link">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-social-box">
+                        <p>Follow us on social media</p>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank" rel="follow" title="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://web.telegram.org/" target="_blank" rel="follow" title="Telegram">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank" rel="follow" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="_blank" rel="follow" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" rel="follow" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-bottom-box">
+                        <p>Copyright &copy; 2022 <a href="index.php">My Loan</a> All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== Footer-bottom End ====== -->
+
+    <a class="top-up smooth-s" href="#banner-main">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <!-- ====== JS link Start ====== -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1
+        })
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('body').scrollspy({
+                target: ".navbar",
+                offset: 40
+            });
+        });
+
+    </script>
+    <!-- ====== JS link End ====== -->
+</body>
+
+</html>
+    
