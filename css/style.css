@@ -219,7 +219,7 @@ p {
 
 .just-grd {
   background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 15%, #b8b8b8 50%, #ffffff 85%, #ffffff 100%);
-  -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent; }
 
 /* ==== All-header ==== */
@@ -941,7 +941,6 @@ p {
   color: #118161;
   display: none;
   text-align: center;
-  drop-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
   z-index: 10;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -1633,9 +1632,42 @@ p {
   box-shadow: 0px 4px 6px rgb(0 0 0 / 25%);
   padding: 45px 35px;
 }
+.dps-bank-top-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dps-bank-top-relation {
+  background-color: #FF9733;
+  padding: 0px 7px;
+  line-height: 19px;
+  border-radius: 0px 0px 10px 0px;
+  font-size: 12px;
+  color: #ffffff;
+}
+.dps-bank-top-i {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0px 3px;
+  font-size: 8px;
+  border-radius: 50%;
+}
+span.fixed-deposit {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+span.tenk {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
 .bank-logo img {
   width: 181px;
   height: 46px;
+}
+.deposit-rang{
+  width: 100%;
 }
 .bank-single-card {
   text-align: center;
@@ -1672,6 +1704,30 @@ p {
   color: #FFFFFF;
   padding: 8px 20px;
 }
-
+button.apply-now {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 14px;
+  background: #9A4144;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 4px 9px;
+  float: left;
+  margin-right: 5px;
+}
+button.choose-tenure {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 14px;
+  background: #118161;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 4px 9px;
+  float: left;
+}
 
 
