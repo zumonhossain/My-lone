@@ -1,0 +1,61 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .dps-go-compare a {
+        font-size: 15px;
+    }
+    .bank-card-content {
+        font-size: 8px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .dps-go-compare {
+        padding: 4px 10px;
+    }
+    .dps-go-compare a {
+        font-size: 12px;
+    }
+    .bank-logo {
+        margin-bottom: 20px;
+    }
+    .bank-showmore-link {
+        margin-top: 30px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .dps-go-compare {
+        margin-top: 15px;
+    }
+    .bank-dps-amount p {
+        line-height: 28px;
+        font-size: 15px;
+    }
+    .bank-single-card {
+        margin-bottom: 15px;
+    }
+    .bank-logo {
+        margin-bottom: 25px;
+    }
+    .bank-showmore-link {
+        margin-top: 15px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

@@ -1579,8 +1579,6 @@ p {
   background: #118161;
   border-radius: 10px;
   text-align: center;
-  position: absolute;
-  top: 67px;
   padding: 7px 20px;
 }
 .dps-go-compare a {
@@ -1591,7 +1589,6 @@ p {
   color: #ffffff;
 }
 .dps-bank-amount-search-bg{
-  height: 48px;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
 }
@@ -1600,7 +1597,6 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 48px;
   color: #000000;
 }
 .bank-dps-amount-search{
@@ -1611,7 +1607,7 @@ p {
   position: absolute;
   top: 0;
   right: 0;
-  padding-top: 19px;
+  padding-top: 10px;
   padding-right: 15px;
   color: #000000;
   font-size: 13px;
@@ -1622,7 +1618,6 @@ p {
   background: #FFFFFF;
   border: 0.5px solid #808080;
   border-radius: 20px;
-  margin-top: 9px;
   padding: 15px 17px;
   font-size: 12px;
 }
