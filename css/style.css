@@ -1725,4 +1725,200 @@ button.choose-tenure {
   float: left;
 }
 
-
+/* ==== user profile Start ==== */
+#profile-active-page-area{
+  background-color: rgba(17, 129, 97, 0.48);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  padding: 180px 0px;
+}
+.profile-active-page-area{
+  position: relative;
+}
+.profile-active-page-bg-dots-imgage-one {
+  position: absolute;
+  left: 0;
+  top: 117px;
+  padding-top: 15px;
+  width: 343px;
+  height: 80px;
+  padding-left: 20px;
+}
+.profile-active-page-bg-dots-imgage-two {
+  position: absolute;
+  right: 0;
+  top: -95px;
+  width: 270px;
+  height: 80px;
+  padding-right: 5px;
+}
+.profile-active-page-bg-dots-imgage-three {
+  position: absolute;
+  right: 0;
+  bottom: -179px;
+  width: 270px;
+  height: 72px;
+  padding-right: 40px;
+}
+.user-profile-top {
+  background: radial-gradient(50% 50% at 50% 50%, #118161 0%, #395C53 100%);
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  padding-top: 30px;
+}
+.user-profile-top i {
+  background-color: #ffffff;
+  color: #118161;
+  font-size: 40px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 75px;
+}
+.user-profile-top p {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+.user-profile-top a {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #9A4144;
+  border-radius: 50px;
+  padding: 3px 10px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.user-profile-top-list {
+  padding-top: 35px;
+  padding-left: 35px;
+  background: #EDF7DE;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 0px 0px 10px 10px;
+  padding-bottom: 60px;
+}
+.user-profile-top-list ul li{
+  margin-bottom: 15px;
+}
+.user-profile-top-list ul li a {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 2px 10px;
+  display: inline-block;
+  border-radius: 20px;
+  width: 160px;
+}
+.user-profile-top-list ul li a i {
+  padding-right: 3px;
+}
+.user-profile-top-list ul li a:hover{
+  color: #118161;
+}
+.user-profile-right-side {
+  background: #EDF7DE;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  padding: 50px;
+}
+.user-profile-right-side-top-list {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.user-profile-right-side-top-list ul li{
+  float: left;
+}
+.user-profile-right-side-top-list ul li a {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  padding-right: 27px;
+}
+.user-profile-right-side-top-list ul li a:hover{
+  color: #9A4144;
+}
+.user-profile-right-side-middle-content {
+  background-color: #ffffff;
+  padding: 30px 20px 0px 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.user-profile-view-details {
+  float: right;
+  padding-left: 10px;
+  color: #000000;
+}
+.user-profile-view-details:hover {
+    color: #9A4144;
+}
+.user-profile-progress-link {
+  float: right;
+  color: #000000;
+}
+.user-profile-progress-link:hover {
+  color: #9A4144;
+}
+.user-profile-progress-icon{
+  color: #FF9733;
+}
+.user-profile-standard-bank{
+  padding-top: 50px;
+  display: block;
+}
+.user-profile-date-time {
+  padding-bottom: 35px;
+  display: block;
+}
+.user-profile-supports-link a {
+  background: #FF9733;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 7px 20px;
+  position: absolute;
+  bottom: 25px;
+}
+.user-profile-cancel-link{
+  float: right;
+}
+.user-profile-cancel-link a {
+  background: #9A4144;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 7px 19px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
