@@ -13,6 +13,9 @@
     .bank-card-content {
         font-size: 8px;
     }
+    .apply-now {
+        margin-bottom: 5px;
+    }
 }
 
  
@@ -30,6 +33,9 @@
     }
     .bank-showmore-link {
         margin-top: 30px;
+    }
+    .bank-showmore-button {
+        margin-top: 25px;
     }
 }
 
@@ -51,6 +57,9 @@
     }
     .bank-showmore-link {
         margin-top: 15px;
+    }
+    .dps-list-checked.fixed-deposit-bottom {
+        margin-bottom: 25px;
     }
 }
  
