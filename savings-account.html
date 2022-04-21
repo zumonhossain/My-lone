@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Savings Account</title>
+    <meta name="author" content="DPS">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- ====== Fonts start ====== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <!-- ====== Fonts end ====== -->
+
+    <!-- ====== main style start ====== -->
+    <link rel="shortcut icon" href="images/main-logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- ====== main style end ====== -->
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+    <!-- ====== Navbar Start ====== -->
+    <section id="navbar-main" class="fixed-top banner-sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand logo-main-top" href="index.php">
+                    <img src="images/main-logo.png" alt="My Loan Logo" class="nav-logo img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-ico">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav sidebarMenuInner ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Track-icon.png" alt="pic">
+                                <p>Track Application</p> <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Trending-icon.png" alt="pic">
+                                <p>Trending Offers</p>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Profile
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <h5>Profile</h5>
+                                <form action="">
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                    <input type="password" class="form-control" placeholder="Password">
+                                    <button type="submit" class="btn">Log In</button>
+                                </form>
+                                <p><a href="#">Forgot password?</a></p>
+                                <a href="#">New Here?</a>
+                                <a href="#"><b>Sign Up</b></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <p>Home</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+
+    <!-- =========== DPS Start ============ -->
+    <section id="dps-content-area">
+        <div class="container">
+
+            <div class="row dps-list-option-btn-bg">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="dps-list-checked fixed-deposit-bottom">
+                        <div class="dps-list-checked-icon">
+                            <img src="images/1.png" alt="">
+                        </div>
+                        <div class="dps-list-checked-content text-center">
+                            <h6>Savings Account</h6>
+                            <P>( Last Checked On 2021-03-11 )</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="dps-list-checked-option">
+                        <form>
+                            <div class="row dps-list-option m-0">
+                                <div class="form-group-custom-style col-6">
+                                    <input type="text" class="form-control pl-1" placeholder="5,000">
+                                </div>
+                                <div class="form-group-custom-style col-6">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Account Type</option>
+                                        <option>2</option>
+                                    </select>
+                                </div>
+                                <div class="form-group-custom-style col-6">
+                                    <span class="fixed-deposit">Fixed Deposit Amount</span><br>
+                                    <span class="tenk">5k</span><br>
+                                    <input type="range" class="form-range deposit-rang" min="0" max="5" id="customRange2">
+                                </div>
+                                <div class="form-group-custom-style col-6">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Institution Type</option>
+                                    <option>2</option>
+                                </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 d-flex align-items-center">
+                    <div class="dps-go-compare">
+                        <a href="#">Go Compare</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row dps-bank-amount-search-bg mt-4 pt-2 pb-2">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                    <div class="bank-dps-amount">
+                        <p>We've found " 25 Monthly Benefit Scheme" 1.00 Lac (BDT) for 3 Year</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="bank-dps-amount-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Top Rating">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row bank-logo-card-bg mt-4">
+                <div class="dps-bank-top-content">
+                    <div class="dps-bank-top-relation">
+                        <span class="dps-bank-top-i">i</span>
+                        <span class="dps-bank-top-text">Credit Rate : AAA</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3  col-md-12 col-sm-12">
+                    <div class="bank-logo">
+                        <img src="images/2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">3 MONTHS</span>
+                                <span class="bank-card-parsentage">5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">6 MONTHS</span>
+                                <span class="bank-card-parsentage">5.5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">9 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">6.75%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">2 YEARS</span>
+                                <span class="bank-card-parsentage">6.25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 d-flex align-items-center p-0">
+                    <div class="bank-showmore-button">
+                        <button class="apply-now">Apply Now</button>
+                        <button class="choose-tenure">Choose Tenure</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row bank-logo-card-bg mt-4">
+                <div class="dps-bank-top-content">
+                    <div class="dps-bank-top-relation">
+                        <span class="dps-bank-top-i">i</span>
+                        <span class="dps-bank-top-text">Credit Rate : AAA</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12">
+                    <div class="bank-logo">
+                        <img style="width: 120px;
+                        height: 54px;" src="images/3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">3 MONTHS</span>
+                                <span class="bank-card-parsentage">5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">6 MONTHS</span>
+                                <span class="bank-card-parsentage">5.5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">9 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">6.75%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">2 YEARS</span>
+                                <span class="bank-card-parsentage">6.25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 d-flex align-items-center p-0">
+                    <div class="bank-showmore-button">
+                        <button class="apply-now">Apply Now</button>
+                        <button class="choose-tenure">Choose Tenure</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row bank-logo-card-bg mt-4">
+                <div class="dps-bank-top-content">
+                    <div class="dps-bank-top-relation">
+                        <span class="dps-bank-top-i">i</span>
+                        <span class="dps-bank-top-text">Credit Rate : AAA</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12">
+                    <div class="bank-logo">
+                        <img style="width: 150px;
+                        height: 58.64px;" src="images/4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">3 MONTHS</span>
+                                <span class="bank-card-parsentage">5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">6 MONTHS</span>
+                                <span class="bank-card-parsentage">5.5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">9 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">6.75%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">2 YEARS</span>
+                                <span class="bank-card-parsentage">6.25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 d-flex align-items-center p-0">
+                    <div class="bank-showmore-button">
+                        <button class="apply-now">Apply Now</button>
+                        <button class="choose-tenure">Choose Tenure</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row bank-logo-card-bg mt-4">
+                <div class="dps-bank-top-content">
+                    <div class="dps-bank-top-relation">
+                        <span class="dps-bank-top-i">i</span>
+                        <span class="dps-bank-top-text">Credit Rate : AAA</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12">
+                    <div class="bank-logo">
+                        <img style="width: 100px;
+                        height: 50.99px;" src="images/5.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">3 MONTHS</span>
+                                <span class="bank-card-parsentage">5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">6 MONTHS</span>
+                                <span class="bank-card-parsentage">5.5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">9 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">6.75%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">2 YEARS</span>
+                                <span class="bank-card-parsentage">6.25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 d-flex align-items-center p-0">
+                    <div class="bank-showmore-button">
+                        <button class="apply-now">Apply Now</button>
+                        <button class="choose-tenure">Choose Tenure</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row bank-logo-card-bg mt-4">
+                <div class="dps-bank-top-content">
+                    <div class="dps-bank-top-relation">
+                        <span class="dps-bank-top-i">i</span>
+                        <span class="dps-bank-top-text">Credit Rate : AAA</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12">
+                    <div class="bank-logo">
+                        <img style="width: 100px;
+                        height: 50.99px;" src="images/6.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">3 MONTHS</span>
+                                <span class="bank-card-parsentage">5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">6 MONTHS</span>
+                                <span class="bank-card-parsentage">5.5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">9 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">6.75%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">2 YEARS</span>
+                                <span class="bank-card-parsentage">6.25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 d-flex align-items-center p-0">
+                    <div class="bank-showmore-button">
+                        <button class="apply-now">Apply Now</button>
+                        <button class="choose-tenure">Choose Tenure</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row bank-logo-card-bg mt-4">
+                <div class="dps-bank-top-content">
+                    <div class="dps-bank-top-relation">
+                        <span class="dps-bank-top-i">i</span>
+                        <span class="dps-bank-top-text">Credit Rate : AAA</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12">
+                    <div class="bank-logo">
+                        <img style="width: 150px;
+                        height: 58.64px;" src="images/7.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">3 MONTHS</span>
+                                <span class="bank-card-parsentage">5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">6 MONTHS</span>
+                                <span class="bank-card-parsentage">5.5%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">9 MONTHS</span>
+                                <span class="bank-card-parsentage">-</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">1 MONTHS</span>
+                                <span class="bank-card-parsentage">6.75%</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                            <div class="bank-single-card">
+                                <span class="bank-card-content">2 YEARS</span>
+                                <span class="bank-card-parsentage">6.25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 d-flex align-items-center p-0">
+                    <div class="bank-showmore-button">
+                        <button class="apply-now">Apply Now</button>
+                        <button class="choose-tenure">Choose Tenure</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- =========== DPS End ============ -->
+
+
+    <!-- ====== Footer-bottom Start ====== -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 m-auto">
+                    <div class="footer-box">
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <a href="#">Spring Leaf. Flat BG, Plot: 27 Road 126, Gulshan - 1, Dhaka 1205</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-square-alt"></i>
+                                <a href="callto:+088012345678910">+088012345678910</a>
+                            </li>
+                            <li>
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:company@gmail.com">company@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="footer-box">
+                        <p>Company</p>
+                        <ul>
+                            <li>
+                                <a href="#">About MyLoan</a>
+                            </li>
+                            <li>
+                                <a href="#">Investors</a>
+                            </li>
+                            <li>
+                                <a href="#">Partners</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Complaints Guide</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-box mb-0">
+                        <p>Legal</p>
+                        <ul>
+                            <li>
+                                <a href="#">Disclaimer</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms of use</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-social-link">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-social-box">
+                        <p>Follow us on social media</p>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank" rel="follow" title="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://web.telegram.org/" target="_blank" rel="follow" title="Telegram">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank" rel="follow" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="_blank" rel="follow" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" rel="follow" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-bottom-box">
+                        <p>Copyright &copy; 2022 <a href="index.php">My Loan</a> All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== Footer-bottom End ====== -->
+
+    <a class="top-up smooth-s" href="#banner-main">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <!-- ====== JS link Start ====== -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1
+        })
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('body').scrollspy({
+                target: ".navbar",
+                offset: 40
+            });
+        });
+
+    </script>
+    <!-- ====== JS link End ====== -->
+</body>
+
+</html>
+    
