@@ -2016,3 +2016,48 @@ button.choose-tenure {
   float: right;
   margin-top: 40px;
 }
+
+/* trending-offers-area */
+#trending-offers-area {
+  background-color: rgba(17, 129, 97, 0.48);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  padding: 150px 0px 150px 0px;
+}
+.trending-menu{}
+.trending-menu ul{
+  
+}
+.trending-menu ul li{
+  float: left;
+  border-right: 1px solid #000000;
+}
+
+.trending-menu ul li:last-child{border-right: 0px;}
+
+.trending-menu ul li a {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  padding: 10px;
+}
+.trending-menu ul li a:hover{
+  color: #118161;
+}
+.trendign-logo img{
+  width: 100%;
+  max-width: 100%;
+}
+.trending-offer-link a {
+  background: #9A4144;
+  border-radius: 20px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffff;
+  padding: 10px 20px;
+}

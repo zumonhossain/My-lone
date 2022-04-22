@@ -58,21 +58,39 @@
                                 <p>Trending Offers</p>
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown" id="myNavDropdown">
+
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Profile
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <h5>Profile</h5>
-                                <form action="">
-                                    <input type="text" class="form-control" placeholder="Phone Number">
-                                    <input type="password" class="form-control" placeholder="Password">
-                                    <button type="submit" class="btn">Log In</button>
-                                </form>
-                                <p><a href="#">Forgot password?</a></p>
-                                <a href="#">New Here?</a>
-                                <a href="#"><b>Sign Up</b></a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="signProfile">
+                                <div class="dropdown-sign-profile">
+                                    <h5>Profile</h5>
+                                    <form action="">
+                                        <input type="text" class="form-control" placeholder="Phone Number">
+                                        <input type="password" class="form-control" placeholder="Password">
+                                        <button type="submit" class="btn">Log In</button>
+                                    </form>
+                                    <p><a href="#">Forgot password?</a></p>
+                                    <a href="#">New Here?</a>
+                                    <a href="#" id="signUpBtn"><b>Sign Up</b></a>
+                                </div>
                             </div>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="signUpProfile">
+                                <h5>Please Sign Up</h5>
+                                <form action="">
+                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                    <input type="email" class="form-control" placeholder="Enter Your Email">
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                    <input type="password" class="form-control" placeholder="Enter Your Password">
+                                    <button type="submit" class="btn">Sign Up</button>
+                                </form>
+                                <p><a href="#">Already have an account?</a></p>
+                                <a href="#" id="signInBtn"><b>Sign In</b></a>
+                            </div>
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -556,6 +574,50 @@
                 offset: 40
             });
         });
+
+        const signInProfile = document.getElementById("signProfile")
+        const signUpBtn = document.getElementById("signUpBtn")
+
+        const singUpProfile = document.getElementById("signUpProfile")
+        const signInBtn = document.getElementById("signInBtn")
+
+        const navbarDropdown = document.getElementById("navbarDropdown")
+
+        
+        
+        navbarDropdown.addEventListener('click', function(){
+           
+           const showClass = signInProfile.classList.contains('show');
+            const showClassTwo = singUpProfile.classList.contains('show');
+            if(showClass){
+                signInProfile.classList.remove("show");
+            }
+            if(showClassTwo){
+                singUpProfile.classList.remove("show");
+            }
+
+       })
+
+
+        signUpBtn.addEventListener('click', function(){
+            signInProfile.classList.remove("show");
+            singUpProfile.classList.add("show");
+        })
+
+       
+
+        signInBtn.addEventListener('click', function(){
+            singUpProfile.classList.remove("show");
+            signInProfile.classList.add("show");
+        })
+
+        
+
+
+        
+
+
+
 
     </script>
     <!-- ====== JS link End ====== -->
