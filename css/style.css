@@ -2054,10 +2054,19 @@ button.choose-tenure {
 .trending-offer-link a {
   background: #9A4144;
   border-radius: 20px;
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 14px;
   color: #ffffff;
   padding: 10px 20px;
+  float: right;
+}
+.trending-offers-details a{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
 }
