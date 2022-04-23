@@ -1691,7 +1691,7 @@ span.tenk {
 .bank-showmore-link a {
   background: #118161;
   border-radius: 20px;
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -1788,7 +1788,7 @@ button.choose-tenure {
   padding-bottom: 10px;
 }
 .user-profile-top a {
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -2158,4 +2158,67 @@ button.modal-close-button {
   color: #000000;
   margin-bottom: 15px;
   display: block;
+}
+.quick-details-main-bg {
+  background: #EDF7DE;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 20px 20px;
+  padding: 50px 5px;
+}
+.personal-lon-modal-content{}
+.personal-lon-modal-content button {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #FF9733;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+}
+.personal-lon-modal-content p{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+a.required_documents{
+  color: #ffffff;
+}
+.required-documents-top-head {
+  background-color: #118161;
+  padding: 15px 20px;
+  color: #fff;
+}
+.single-required-documents {
+  background: #EDF7DE;
+  border-radius: 10px;
+}
+.single-required-documents h6 {
+  background: #118161;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+ul.remember-list {
+  font-size: 13px;
+  padding: 30px 15px 30px 30px;
+}
+ul.remember-list li {
+  list-style: disc;
+  padding-bottom: 15px;
+}
+.essential-document {
+  padding: 30px 15px 30px 24px;
+  font-size: 14px;
+}
+.essential-document span {
+  display: block;
+  font-size: 14px;
 }
