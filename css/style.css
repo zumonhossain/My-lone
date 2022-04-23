@@ -2066,3 +2066,45 @@ button.choose-tenure {
   line-height: 24px;
   color: #000000;
 }
+button.button-apply{
+  background: #9A4144;
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  float: right;
+  border-color: none;
+}
+.modal-main-bg {
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+}
+.modal-header-content-bg {
+  position: relative;
+  background: #118161;
+  padding: 30px;
+}
+button.modal-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #9A4144;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0px 10px;
+  display: block;
+  cursor: pointer;
+}
+.modal-title h5{
+  color: #ffffff;
+  font-size: 18px;
+}
+.modal-form{
+  width: 60%;
+  margin: auto;
+}
