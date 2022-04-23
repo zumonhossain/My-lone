@@ -2108,3 +2108,54 @@ button.modal-close-button {
   width: 60%;
   margin: auto;
 }
+#personal-loan-info-area {
+  background-color: rgba(17, 129, 97, 0.48);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  padding: 170px 0px 150px 0px;
+}
+.personal-lon-info-title {
+  position: relative;
+  background: rgba(255, 255, 255, 0.36);
+  box-shadow: 0px 4px 6px rgb(0 0 0 / 25%);
+  padding: 30px 31px;
+  text-align: center;
+}
+.personal-lon-info-title h6{
+  font-size: 18px;
+}
+.personal-lon-info-img img{
+  width: 130px;
+  height: 30px;
+}
+.personal-lon-info-link-one a, .personal-lon-info-link-two a {
+  background: #118161;
+  border-radius: 5px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  padding: 7px 10px;
+  display: block;
+  text-align: center;
+}
+.personal-lon-info-link-two a {
+  background: #9A4144;
+  color: #ffffff;
+}
+.personal-lon-info-link-two a.quick-details{
+  background-color: #FF9733;
+}
+.the-brack-title{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  margin-bottom: 15px;
+  display: block;
+}

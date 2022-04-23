@@ -87,8 +87,25 @@
     .trending-offer-link {
         float: left;
         margin-top: 25px;
-      }
+    }
 
+    .filter-icon, .filter-search{
+        display: none;
+    }
+    .loan-amount{
+        font-size: 14px;
+    }
+
+    .personal-lon-info-img {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .the-brack-title {
+        margin-top: 20px;
+    }
+    .personal-lon-search{
+        float: left;
+    }
 }
  
 /* Large Mobile :480px. */
