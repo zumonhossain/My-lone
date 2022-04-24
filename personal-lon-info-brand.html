@@ -8,7 +8,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Personal Loan Info</title>
+    <title>Personal Loan Info Brand</title>
     <meta name="author" content="DPS">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -416,7 +416,7 @@
                 </div>
             </div>
 
-            <div class="row bank-logo-card-bg mt-4  d-flex align-items-center">
+            <div class="row bank-logo-card-bg mt-4 mb-5  d-flex align-items-center">
                 <div class="col-xl-2 col-lg-2  col-md-12 col-sm-12 text-md-center text-sm-center">
                     <div class="personal-lon-info-img mb-2 mb-md-3 mb-sm-3">
                         <img src="images/3.png" alt="">
@@ -471,7 +471,38 @@
                     </div>
                 </div>
             </div>
+            <div class="brandBox">
+                <span class="close">&times;</span>
+                <div class="row">
+                    <div class="col-xl-6"></div>
 
+                    <div class="col-xl-6 single-personal-brand-box">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="brandBox">
+                                <span class="close">&times;</span>
+                                    <div class="single-personal-brand-box">
+                                        <img src="images/2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brandBox">
+                                <span class="close">&times;</span>
+                                    <div class="single-personal-brand-box">
+                                        <img src="images/4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="single-personal-brand-btn">
+                                    <a href="#">Compare Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- =========== DPS End ============ -->
@@ -716,6 +747,37 @@
         </div>
       </div>
 
+
+
+      <script>
+        $(document).ready(function() {
+            $('body').scrollspy({
+                target: ".navbar",
+                offset: 40
+            });
+        });
+
+
+
+        
+        const signInBtn = document.getElementById("signInBtn")
+
+        
+        signInBtn.addEventListener('click', function(){
+            signInBtn.classList.remove("show");
+        })
+
+        
+
+
+        
+
+
+
+
+    </script>
+
+
     <!-- ====== JS link Start ====== -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -739,6 +801,18 @@
             });
         });
 
+    </script>
+
+
+<script>
+    var closebtns = document.getElementsByClassName("close");
+    var i;
+    
+    for (i = 0; i < closebtns.length; i++) {
+      closebtns[i].addEventListener("click", function() {
+        this.parentElement.style.display = 'none';
+      });
+    }
     </script>
     <!-- ====== JS link End ====== -->
 </body>
