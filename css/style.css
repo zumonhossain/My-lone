@@ -2266,7 +2266,7 @@ ul.remember-list li {
   z-index: 1;
 }
 #car-lon-eligibilty-area {
-  background: rgba(17, 129, 97, 0.48);
+  background: url(../images/card-eligi-bg.png);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
